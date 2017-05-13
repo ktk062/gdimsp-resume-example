@@ -1,0 +1,89 @@
+/* GLOBAL STYLES */
+body {
+  font-size: 16px; /* 1 em equals 16px this is the default*/
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  font-size: 4em; /* px to em */
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto; /*centers the container*/
+  padding: 0 30px;
+}
+
+/* HEADER */
+header {
+  background-image: url('../images/sky-bg.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  min-height: 500px;
+}
+header .container {
+  padding-top: 50px;
+}
+
+/*--logo--*/
+.logo a {
+  float: left;
+  width: 40%;
+  font-family: 'Rock Salt', sans-serif;
+  color: #000;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+/*--navigation--*/
+nav {
+  float: right;
+  width: 60%;
+}
+nav ul {
+  float: right;
+}
+nav li {
+  display: inline-block;
+  padding-right: 20px;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+nav li a {
+  color: #fff;
+}
+nav li a:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+/*SECTIONS*/
+section {
+  padding: 150px 0;
+}
+
+#about{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+#about, .container {
+  display: flex;
+}
+.bio, .profile {
+  flex: 1;
+}
+
+#experience{
+  background-color: black;
+}
+
+#education{
+  background-color: blue;
+}
+
+#contact{
+  background-color: green;
+}
